@@ -3,6 +3,7 @@ package persistence.dao;
 import java.util.List;
 
 import model.Utente;
+import persistence.UtenteCredenziali;
 
 public interface UtenteDao  {
 
@@ -12,6 +13,6 @@ public interface UtenteDao  {
 	public void update(Utente utente); 
 	public void delete(Utente utente); 
 	public void setPassword(Utente utente, String password);
-	//public utenteCredenziali (findByPrimaryKeyCredential(String nickname);
+	public UtenteCredenziali findByPrimaryKeyCredential(String nickname);
 	
 }
