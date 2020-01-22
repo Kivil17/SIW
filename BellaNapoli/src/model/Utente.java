@@ -4,43 +4,27 @@ import java.util.Date;
 
 
 public class Utente {
-	private String nickname;
-	private String password;
+	
 	private String nome;
 	private String cognome;
 	private Date dataNascita;
 	private String email;
 	private String cittaResidenza;
 	private String provincia;
+	private String cf;
 	
 	public Utente() {}
-	
-	public Utente(String nickname,String nome, String cognome, Date dataNascita, String email, String cittaResidenza,String provincia, String password) {
-		this.nickname=nickname;
-		this.nome=nome;
-		this.cognome=cognome;
-		this.dataNascita=dataNascita;
-		this.email=email;
-		this.cittaResidenza=cittaResidenza;
-		this.provincia=provincia;
-		this.password= password;
-		
-	}
 
-	public String getPassword() {
-		return password;
-	}
-
-	public void setPassword(String password) {
-		this.password = password;
-	}
-
-	public String getNickname() {
-		return nickname;
-	}
-
-	public void setNickname(String nickname) {
-		this.nickname = nickname;
+	public Utente(String nome, String cognome, Date dataNascita, String email, String cittaResidenza, String provincia,
+			String cf) {
+		super();
+		this.nome = nome;
+		this.cognome = cognome;
+		this.dataNascita = dataNascita;
+		this.email = email;
+		this.cittaResidenza = cittaResidenza;
+		this.provincia = provincia;
+		this.cf = cf;
 	}
 
 	public String getNome() {
@@ -91,13 +75,21 @@ public class Utente {
 		this.provincia = provincia;
 	}
 
-	@Override
-	public String toString() {
-		return "Utente [nickname=" + nickname + ", password=" + password + ", nome=" + nome + ", cognome=" + cognome
-				+ ", dataNascita=" + dataNascita + ", email=" + email + ", cittaResidenza=" + cittaResidenza
-				+ ", provincia=" + provincia + "]";
+	public String getCf() {
+		return cf;
 	}
 
+	public void setCf(String cf) {
+		this.cf = cf;
+	}
+
+	@Override
+	public String toString() {
+		return "Utente [nome=" + nome + ", cognome=" + cognome + ", dataNascita=" + dataNascita + ", email=" + email
+				+ ", cittaResidenza=" + cittaResidenza + ", provincia=" + provincia + ", cf=" + cf + "]";
+	}
+	
+	
 	
 	
 }
