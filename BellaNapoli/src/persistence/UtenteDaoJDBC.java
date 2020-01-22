@@ -57,7 +57,13 @@ public class UtenteDaoJDBC implements UtenteDao {
 
 	@Override
 	public Utente findByPrimaryKey(String cf) {
-		Connection connection = this.dataSource.getConnection();
+		Connection connection;
+		try {
+			connection = this.dataSource.getConnection();
+		} catch (SQLException e1) {
+			
+			e1.printStackTrace();
+		}
 		Utente utente = null;
 		try {
 			PreparedStatement statement;
