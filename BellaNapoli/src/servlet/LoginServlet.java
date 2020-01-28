@@ -8,6 +8,9 @@ public class LoginServlet extends HttpServlet{
 
 	public void doPost(HttpServletRequest req, HttpServletResponse res)
 	{
+		int n= Integer.parseInt(req.getParameter("username"));
+		int p= Integer.parseInt(req.getParameter("password"));
+		
 		
 	}
 }

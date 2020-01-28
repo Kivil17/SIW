@@ -31,18 +31,18 @@
   <body>
   	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-		      <p class="navbar-brand" href="index.html"><img src="images/bn.jpg"> Bella<font color="gold"> Napoli</font></p>
+		      <p class="navbar-brand" href="index.jsp"><img src="images/bn.jpg"> Bella<font color="gold"> Napoli</font></p>
 		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 		        <span class="oi oi-menu"></span> Menu
 		      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
-	          <li class="nav-item"><a href="services.html" class="nav-link">Servizi</a></li>
-	          <li class="nav-item"><a href="blog.html" class="nav-link">Prenota il tuo tavolo</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">Chi siamo</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contattaci</a></li>
+	          <li class="nav-item active"><a href="index.jsp" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="menu.jsp" class="nav-link">Menu</a></li>
+	          <li class="nav-item"><a href="services.jsp" class="nav-link">Servizi</a></li>
+	          <li class="nav-item"><a href="blog.jsp" class="nav-link">Prenota il tuo tavolo</a></li>
+	          <li class="nav-item"><a href="about.jsp" class="nav-link">Chi siamo</a></li>
+	          <li class="nav-item"><a href="contact.jsp" class="nav-link">Contattaci</a></li>
 	        </ul>
 	      </div>
 		  </div>
@@ -58,7 +58,7 @@
             <div class="col-md-6 col-sm-12 ftco-animate">
             	<span class="subheading">Pizza</span>
               <h1 class="mb-4">Margherita</h1>
-              <p class="mb-4 mb-md-5"> Per onorare la Regina d'Italia Margherita di Savoia, il cuoco Raffaele Esposito preparÃ² la "Pizza Margherita", una pizza condita con pomodori, mozzarella e basilico, per rappresentare i colori della bandiera italiana.</p>
+              <p class="mb-4 mb-md-5"> Per onorare la Regina d'Italia Margherita di Savoia, il cuoco Raffaele Esposito preparò la "Pizza Margherita", una pizza condita con pomodori, mozzarella e basilico, per rappresentare i colori della bandiera italiana.</p>
               <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Ordina ora!</a> <a href="#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">Il nostro Menu</a></p>
             </div>
             <div class="col-md-6 ftco-animate">
