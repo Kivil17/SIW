@@ -49,9 +49,9 @@
 	  </nav>
     <!-- END nav -->
 
-    <section class="home-slider owl-carousel img" style="background-image: url(images/pizzeria.jpg);">
+    <section class="home-slider owl-carousel img" style="background-image: url(images/unnamed.jpg);">
 
-      <div class="slider-item" style="background-image: url(images/bg_3.jpg);">
+      <div class="slider-item" style="background-image: url(images/unnamed.jpg);">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row slider-text justify-content-center align-items-center">
@@ -152,7 +152,7 @@
             </div>
           </div>
         </div>
-       </div> 
+       
         <div class="row">
           <div class="col-md-12 text-center">
 		
