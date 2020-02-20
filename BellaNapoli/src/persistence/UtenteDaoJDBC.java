@@ -16,11 +16,9 @@ public class UtenteDaoJDBC implements UtenteDao {
 	
 	private DataSource dataSource;
 
-	public UtenteDaoJDBC(DataSource dataSource) {
-		this.dataSource = dataSource;
+	public UtenteDaoJDBC() {
+		dataSource = new DataSource();
 	}
-
-
 	
 	@Override
 	public void save(Utente utente) {
@@ -28,16 +26,14 @@ public class UtenteDaoJDBC implements UtenteDao {
 		Connection connection = null;
 		connection = this.dataSource.getConnection();
 			try {
-				String insert= "insert into utente(nome, cognome, data_nascita, cf, cittaResidenza, provincia, email) values (?,?,?,?,?,?,?)"; 
+				String insert= "insert into utente(user,password,nome,cognome,data,email) values (?,?,?,?,?,?)"; 
 				PreparedStatement statement = connection.prepareStatement(insert);
-				statement.setString(1, utente.getCf());
-				statement.setString(2, utente.getNome());
-				statement.setString(3, utente.getCognome());
-				long secs = utente.getDataNascita().getTime();
-				statement.setDate(4, new java.sql.Date(secs));
-				statement.setString(5, utente.getProvincia());
-				statement.setString(6, utente.getCittaResidenza());
-				statement.setString(7, utente.getEmail());
+				statement.setString(1, utente.getUser());				
+				statement.setString(2, utente.getPassword());				
+				statement.setString(3, utente.getNome());				
+				statement.setString(4, utente.getCognome());			
+				statement.setString(5, utente.getDataNascita());				
+				statement.setString(6, utente.getEmail());				
 				statement.executeUpdate();
 			
 			} catch (SQLException e) {
@@ -51,7 +47,7 @@ public class UtenteDaoJDBC implements UtenteDao {
 			}
 		}
 
-	@Override
+	/*@Override
 	public Utente findByPrimaryKey(String cf) {
 		Connection connection=null;
 		connection = this.dataSource.getConnection();
@@ -209,6 +205,6 @@ public class UtenteDaoJDBC implements UtenteDao {
 			}
 		}
 		
-	}
+	}*/
 	
 }

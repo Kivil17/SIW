@@ -40,8 +40,8 @@
 	          <li class="nav-item"><a href="index.jsp" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="menu.jsp" class="nav-link">Menu</a></li>
 	          <li class="nav-item "><a href="services.jsp" class="nav-link">Servizi</a></li>
-	          <li class="nav-item"><a href="prenotazione.jsp" class="nav-link">Prenota il tuo tavolo</a></li>
-	          <li class="nav-item active"><a href="about.jsp" class="nav-link">Chi siamo</a></li>
+	          <li class="nav-item active"><a href="prenotazione.jsp" class="nav-link">Prenota il tuo tavolo</a></li>
+	          <li class="nav-item"><a href="about.jsp" class="nav-link">Chi siamo</a></li>
 	          <li class="nav-item"><a href="contact.jsp" class="nav-link">Contattaci</a></li>
 	        </ul>
 	      </div>
@@ -49,15 +49,15 @@
 	  </nav>
     <!-- END nav -->
 
-    <section class="home-slider owl-carousel img" style="background-image: url(images/unnamed.jpg);">
+    <section class="home-slider owl-carousel img" style="background-image: url(images/bg_1.jpg);">
 
-      <div class="slider-item" style="background-image: url(images/unnamed.jpg);">
+      <div class="slider-item" style="background-image: url(images/sala.jpg);">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row slider-text justify-content-center align-items-center">
 
             <div class="col-md-7 col-sm-12 text-center ftco-animate">
-            	<h1 class="mb-3 mt-5 bread">Dicono di noi</h1>
+            	<h1 class="mb-3 mt-5 bread">Prenota Ora!</h1>
 	            <p class="breadcrumbs"><span class="mr-2"><a href="index.jsp">Home</a></span>
             </div>
 
@@ -67,95 +67,14 @@
     </section>
     
 
-    
-
     <section class="ftco-section">
       <div class="container">
-      	<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section ftco-animate text-center">
-            <h2 class="mb-4">Il nostro Personale</h2>
-            <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
-            <p class="mt-5"></p>
-          </div>
-        </div>
-        <div class="row">
-        	<div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
-        		<div class="staff">
-      				<div class="img mb-4" style="background-image: url(images/person_1.jpg);"></div>
-      				<div class="info text-center">
-      					<h3><a href="teacher-single.jsp">Tom Smith</a></h3>
-      					<span class="position">Chef</span>
-      					<div class="text">
-	        				<p>mettere una breve descrizione dietro quando clicco sull'immagine.</p>
-	        			</div>
-      				</div>
-        		</div>
-        	</div>
-        	<div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
-        		<div class="staff">
-      				<div class="img mb-4" style="background-image: url(images/person_2.jpg);"></div>
-      				<div class="info text-center">
-      					<h3><a href="teacher-single.jsp">Mark Wilson</a></h3>
-      					<span class="position">Pizzaiolo</span>
-      					<div class="text">
-	        				<p></p>
-	        			</div>
-      				</div>
-        		</div>
-        	</div>
-        	<div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
-        		<div class="staff">
-      				<div class="img mb-4" style="background-image: url(images/person_3.jpg);"></div>
-      				<div class="info text-center">
-      					<h3><a href="teacher-single.jsp">Patrick Jacobson</a></h3>
-      					<span class="position">Direttore di sala</span>
-      					<div class="text">
-	        				<p></p>
-	        			</div>
-      				</div>
-        		</div>
-        	</div>
-        	<div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
-        		<div class="staff">
-      				<div class="img mb-4" style="background-image: url(images/person_4.jpg);"></div>
-      				<div class="info text-center">
-      					<h3><a href="teacher-single.jsp">Ivan Dorchsner</a></h3>
-      					<span class="position">Aiutante Chef</span>
-      					<div class="text">
-	        				<p></p>
-	        			</div>
-      				</div>
-        		</div>
-        	</div>
-        </div>
-      </div>
-    </section>
-
-
-		
-
-    <footer class="ftco-footer ftco-section img">
-    	<div class="overlay"></div>
-      <div class="container">
-        <div class="row mb-5">
         
-          <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
-            <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Have a Questions?</h2>
-            	<div class="block-23 mb-3">
-	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">via Capri, 5</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">392 3929210</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@ciao.com</span></a></li>
-	              </ul>
-	            </div>
-            </div>
-          </div>
-        </div>
-       
+        <!-- QUI CI ANDRA LA MAPPA DELLA SALA -->
+        
         <div class="row">
           <div class="col-md-12 text-center">
-		
+
             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
   Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>

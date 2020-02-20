@@ -40,7 +40,7 @@
 	          <li class="nav-item"><a href="index.jsp" class="nav-link">Home</a></li>
 	          <li class="nav-item active"><a href="menu.jsp" class="nav-link">Menu</a></li>
 	          <li class="nav-item"><a href="services.jsp" class="nav-link">Servizi</a></li>
-	          <li class="nav-item"><a href="blog.jsp" class="nav-link">Prenota il tuo tavolo</a></li>
+	          <li class="nav-item"><a href="prenotazione.jsp" class="nav-link">Prenota il tuo tavolo</a></li>
 	          <li class="nav-item"><a href="about.jsp" class="nav-link">Chi siamo</a></li>
 	          <li class="nav-item"><a href="contact.jsp" class="nav-link">Contattaci</a></li>
 	        </ul>
@@ -68,13 +68,14 @@
     
     
     <section class="ftco-menu">
+    
     	<div class="container-fluid">
     		<div class="row d-md-flex">
 	    		
 	    		<div class="col-lg-8 ftco-animate p-md-5">
 	    		
 		    		<div class="row">
-		          <div class="col-md-12 nav-link-wrap mb-5">
+		             <div class="col-md-12 nav-link-wrap mb-5 ">
 		            <div class="nav ftco-animate nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 		              <a class="nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Pizza</a>
 
@@ -110,8 +111,7 @@
 		          </div>
 		        </div>
 		      </div>
-		    </div>
-    	</div>
+		   
 		
     	
 
@@ -127,10 +127,10 @@
         	<div class="col-md-6">
         		<div class="pricing-entry d-flex ftco-animate">
         			<div class="img" style="background-image: url(images/pizza-1.jpg);"></div>
-        			<div class="desc pl-3">
+        			<div class="desc pl-3"> 
 	        			<div class="d-flex text align-items-center">
 	        				<h3><span>Cornetto Rustico</span></h3>
-	        				<span class="price">€7,00</span>
+	        				<span class="price">7,00</span>
 	        			</div>
 	        			<div class="d-block">
 	        				<p>Pomodoro, mozzarella, crudo, rucola, pomodoro fresco, grana.</p>
@@ -142,7 +142,7 @@
         			<div class="desc pl-3">
 	        			<div class="d-flex text align-items-center">
 	        				<h3><span>Stella</span></h3>
-	        				<span class="price">€8,00</span>
+	        				<span class="price">8,00</span>
 	        			</div>
 	        			<div class="d-block">
 	        				<p>Ingredienti scelti casualmente dal Pizzaiolo.</p>
@@ -154,7 +154,7 @@
         			<div class="desc pl-3">
 	        			<div class="d-flex text align-items-center">
 	        				<h3><span>Racchetta</span></h3>
-	        				<span class="price">€8,00</span>
+	        				<span class="price">8,00</span>
 	        			</div>
 	        			<div class="d-block">
 	        				<p>Ingredienti scelti casualmente dal Pizzaiolo.</p>
@@ -166,7 +166,7 @@
         			<div class="desc pl-3">
 	        			<div class="d-flex text align-items-center">
 	        				<h3><span>Donna Carmela</span></h3>
-	        				<span class="price">€7,00</span>
+	        				<span class="price">7,00</span>
 	        			</div>
 	        			<div class="d-block">
 	        				<p>Bianca con crema di zucca, provola, pancetta e pepe nero.</p>
@@ -177,8 +177,8 @@
         			<div class="img" style="background-image: url(images/pizza-1.jpg);"></div>
         			<div class="desc pl-3">
 	        			<div class="d-flex text align-items-center">
-	        				<h3><span>Totò</span></h3>
-	        				<span class="price">€7,00</span>
+	        				<h3><span>Tot�</span></h3>
+	        				<span class="price">7,00</span>
 	        			</div>
 	        			<div class="d-block">
 	        				<p>Bianca con pomodorini, rucola, grana, involtini di crudo con ricotta e rucola.</p>
@@ -193,7 +193,7 @@
         			<div class="desc pl-3">
 	        			<div class="d-flex text align-items-center">
 	        				<h3><span>Multigusto</span></h3>
-	        				<span class="price">€8,00</span>
+	        				<span class="price">8,00</span>
 	        			</div>
 	        			<div class="d-block">
 	        				<p>Ingredienti a scelta del Pizzaiolo.</p>
@@ -205,7 +205,7 @@
         			<div class="desc pl-3">
 	        			<div class="d-flex text align-items-center">
 	        				<h3><span>Margherita</span></h3>
-	        				<span class="price">€3,50</span>
+	        				<span class="price">3,50</span>
 	        			</div>
 	        			<div class="d-block">
 	        				<p>Pomodoro, mozzarella, basilico.</p>
@@ -217,7 +217,7 @@
         			<div class="desc pl-3">
 	        			<div class="d-flex text align-items-center">
 	        				<h3><span>Marinara</span></h3>
-	        				<span class="price">€2,50</span>
+	        				<span class="price">2,50</span>
 	        			</div>
 	        			<div class="d-block">
 	        				<p>Pomodoro, origano, aglio, olio.</p>
@@ -229,7 +229,7 @@
         			<div class="desc pl-3">
 	        			<div class="d-flex text align-items-center">
 	        				<h3><span>Rocco</span></h3>
-	        				<span class="price">€5,50</span>
+	        				<span class="price">5,50</span>
 	        			</div>
 	        			<div class="d-block">
 	        				<p>Bianca, wurstel, patatine.</p>
@@ -241,7 +241,7 @@
         			<div class="desc pl-3">
 	        			<div class="d-flex text align-items-center">
 	        				<h3><span>Calzone</span></h3>
-	        				<span class="price">€8.00</span>
+	        				<span class="price">8.00</span>
 	        			</div>
 	        			<div class="d-block">
 	        				<p>Pomodoro, mozzarella, salame dolce, ricotta.</p>

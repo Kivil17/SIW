@@ -5,27 +5,29 @@ import java.util.Date;
 
 public class Utente {
 	
+	private String user;
+	private String password;
 	private String nome;
 	private String cognome;
-	private Date dataNascita;
+	private String dataNascita;
 	private String email;
-	private String cittaResidenza;
-	private String provincia;
-	private String cf;
+	
 	
 	public Utente() {}
 
-	public Utente(String nome, String cognome, Date dataNascita, String email, String cittaResidenza, String provincia,
-			String cf) {
+	
+
+	public Utente(String user, String password, String nome, String cognome, String dataNascita, String email) {
 		super();
+		this.user = user;
+		this.password = password;
 		this.nome = nome;
 		this.cognome = cognome;
 		this.dataNascita = dataNascita;
 		this.email = email;
-		this.cittaResidenza = cittaResidenza;
-		this.provincia = provincia;
-		this.cf = cf;
 	}
+
+
 
 	public String getNome() {
 		return nome;
@@ -43,11 +45,11 @@ public class Utente {
 		this.cognome = cognome;
 	}
 
-	public Date getDataNascita() {
+	public String getDataNascita() {
 		return dataNascita;
 	}
 
-	public void setDataNascita(Date dataNascita) {
+	public void setDataNascita(String dataNascita) {
 		this.dataNascita = dataNascita;
 	}
 
@@ -59,36 +61,40 @@ public class Utente {
 		this.email = email;
 	}
 
-	public String getCittaResidenza() {
-		return cittaResidenza;
+
+
+	public String getUser() {
+		return user;
 	}
 
-	public void setCittaResidenza(String cittaResidenza) {
-		this.cittaResidenza = cittaResidenza;
+
+
+	public void setUser(String user) {
+		this.user = user;
 	}
 
-	public String getProvincia() {
-		return provincia;
+
+
+	public String getPassword() {
+		return password;
 	}
 
-	public void setProvincia(String provincia) {
-		this.provincia = provincia;
+
+
+	public void setPassword(String password) {
+		this.password = password;
 	}
 
-	public String getCf() {
-		return cf;
-	}
 
-	public void setCf(String cf) {
-		this.cf = cf;
-	}
 
 	@Override
 	public String toString() {
-		return "Utente [nome=" + nome + ", cognome=" + cognome + ", dataNascita=" + dataNascita + ", email=" + email
-				+ ", cittaResidenza=" + cittaResidenza + ", provincia=" + provincia + ", cf=" + cf + "]";
+		return "Utente [user=" + user + ", password=" + password + ", nome=" + nome + ", cognome=" + cognome
+				+ ", dataNascita=" + dataNascita + ", email=" + email + "]";
 	}
+
 	
+
 	
 	
 	

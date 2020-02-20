@@ -9,6 +9,10 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js">
+	
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
     
@@ -26,12 +30,12 @@
     
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css"> 
   </head>
   <body>
   	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-		      <p class="navbar-brand" href="index.jsp"><img src="images/bn.jpg"> Bella<font color="gold"> Napoli</font></p>
+		      <p class="navbar-brand" href="home.jsp"><img src="images/bn.jpg"> Bella<font color="gold"> Napoli</font></p>
 		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 		        <span class="oi oi-menu"></span> Menu
 		      </button>
@@ -40,9 +44,13 @@
 	          <li class="nav-item active"><a href="index.jsp" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="menu.jsp" class="nav-link">Menu</a></li>
 	          <li class="nav-item"><a href="services.jsp" class="nav-link">Servizi</a></li>
-	          <li class="nav-item"><a href="blog.jsp" class="nav-link">Prenota il tuo tavolo</a></li>
+	          <li class="nav-item"><a href="prenotazione.jsp" class="nav-link">Prenota il tuo tavolo</a></li>
 	          <li class="nav-item"><a href="about.jsp" class="nav-link">Chi siamo</a></li>
 	          <li class="nav-item"><a href="contact.jsp" class="nav-link">Contattaci</a></li>
+	          
+	          <li class="nav-item"><a href="login.jsp" class="nav-link">Accedi</a></li>
+	          <li class="nav-item"><a href="registration.jsp" class="nav-link">Registrati</a></li>
+	          
 	        </ul>
 	      </div>
 		  </div>
@@ -153,51 +161,6 @@
         	<div>
   				<p>La nostra sala prende forma e si trasforma in quella del polo nord. Venite a scoprire lenostre brillanti decoranzioni e le nostre "magiche" portate.</p>
   			</div>
-    	</div>
-    </section>
-
-    <section class="ftco-section ftco-services">
-    	<div class="overlay"></div>
-    	<div class="container">
-    		<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section ftco-animate text-center">
-            <h2 class="mb-4">I nostri servizi!</h2>
-            <p>Dal 1987 garantiamo ai nostri clienti anni di tradizioni Napoletane, e pizze di alta qualità oltre alle nostre specialità come il pesce fresco.</p>
-          </div>
-        </div>
-    		<div class="row">
-          <div class="col-md-4 ftco-animate">
-            <div class="media d-block text-center block-6 services">
-              <div class="icon d-flex justify-content-center align-items-center mb-5">
-              	<span class="flaticon-diet"></span>
-              </div>
-              <div class="media-body">
-                <h3 class="heading">Prodotti di qualità</h3>
-                <p>Selezioniamo con cura ed attenzione tutti i nostri prodotti, per garantirvi il massimo della qualità.</p>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md-4 ftco-animate">
-            <div class="media d-block text-center block-6 services">
-              <div class="icon d-flex justify-content-center align-items-center mb-5">
-              	<span class="flaticon-bicycle"></span>
-              </div>
-              <div class="media-body">
-                <h3 class="heading">Consegna Veloce</h3>
-                <p>Provare per credere!</p>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md-4 ftco-animate">
-            <div class="media d-block text-center block-6 services">
-              <div class="icon d-flex justify-content-center align-items-center mb-5"><span class="flaticon-pizza-1"></span></div>
-              <div class="media-body">
-                <h3 class="heading">Prodotti originali</h3>
-                <p>Oltre alle nostre pizze tradizionali puoi trovare anche quelle speciali.</p>
-              </div>
-            </div>    
-          </div>
-        </div>
     	</div>
     </section>
 
